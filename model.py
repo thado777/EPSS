@@ -25,6 +25,6 @@ model = tf.keras.models.Sequential([
 
 model.compile (optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
 
-model.fit(np.array(x데이터), np.array(y데이터), epochs=5000)
+model.fit(np.array(x데이터), np.array(y데이터), epochs=50)
 
 model.predict()
